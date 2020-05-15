@@ -20,30 +20,11 @@ a[href="/"] {
   display: block;
 }
 
-img[alt="Mastodon"] {
-  visibility: hidden;
-}
-
-.landing-page__forms .button[href="https://joinmastodon.org"] {
-  display: none;
-}
-
 .brand {
   background: transparent url(https://themedata.koyu.space/img/pb-icon.svg) no-repeat top/100% auto !important;
   padding: 60px;
 }
 
-a[href="https://joinmastodon.org/"] {
-  display: none;
-}
-
-.brand__tagline {
-  display: none;
-}
-
-.landing-page h1 small {
-  visibility: hidden;
-}
 .landing-page h1 small:after {
   content: "A cute Mastodon server!";
   visibility: visible;
@@ -51,6 +32,15 @@ a[href="https://joinmastodon.org/"] {
   position: absolute;
 }
 
-.modal-layout__mastodon {
+img[alt="Mastodon"],
+.landing-page h1 small {
+  visibility: hidden;
+}
+
+.modal-layout__mastodon,
+.public-layout .header .brand svg,
+.brand__tagline,
+a[href="https://joinmastodon.org/"],
+.landing-page__forms .button[href="https://joinmastodon.org"] {
   display: none;
 }
