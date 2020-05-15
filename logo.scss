@@ -48,6 +48,7 @@ img[alt="Mastodon"],
 a[href="https://joinmastodon.org/"],
 .landing-page__forms .button[href="https://joinmastodon.org"],
 .landing__brand svg,
-.public-layout .footer .brand svg {
+.public-layout .footer .brand svg,
+.logo-container h1 svg {
   display: none;
 }
