@@ -1,0 +1,56 @@
+.logo-container h1 a {
+  background: transparent url('https://themedata.koyu.space/img/pb-icon.svg') no-repeat bottom/100% auto !important;
+  padding: 79px;
+}
+
+.public-layout .header .brand {
+  background: transparent url(https://themedata.koyu.space/img/pb-icon.svg) no-repeat bottom/90% auto !important;
+  padding: 26px;
+  margin-top: -4px;
+}
+
+.landing-page__logo {
+  background: transparent url(https://themedata.koyu.space/img/pb-icon.svg) no-repeat bottom/100% auto !important;
+  padding: 30px;
+}
+
+a[href="/"] {
+  background: transparent url(https://themedata.koyu.space/img/pb-icon.svg) no-repeat top/41% auto !important;
+  box-sizing: border-box;
+  display: block;
+}
+
+img[alt="Mastodon"] {
+  visibility: hidden;
+}
+
+.landing-page__forms .button[href="https://joinmastodon.org"] {
+  display: none;
+}
+
+.brand {
+  background: transparent url(https://themedata.koyu.space/img/pb-icon.svg) no-repeat top/100% auto !important;
+  padding: 60px;
+}
+
+a[href="https://joinmastodon.org/"] {
+  display: none;
+}
+
+.brand__tagline {
+  display: none;
+}
+
+.landing-page h1 small {
+  visibility: hidden;
+}
+.landing-page h1 small:after {
+  content: "A cute Mastodon server!";
+  visibility: visible;
+  display: block;
+  position: absolute;
+}
+
+.modal-layout__mastodon {
+  display: none;
+}
