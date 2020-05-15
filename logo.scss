@@ -25,6 +25,11 @@ a[href="/"] {
   padding: 60px;
 }
 
+.public-layout .footer .brand {
+  display: inline-block;
+  padding: 30px;
+}
+
 .landing-page h1 small:after {
   content: "A cute Mastodon server!";
   visibility: visible;
@@ -41,6 +46,8 @@ img[alt="Mastodon"],
 .public-layout .header .brand svg,
 .brand__tagline,
 a[href="https://joinmastodon.org/"],
-.landing-page__forms .button[href="https://joinmastodon.org"] {
+.landing-page__forms .button[href="https://joinmastodon.org"],
+.landing__brand svg,
+.public-layout .footer .brand svg {
   display: none;
 }
