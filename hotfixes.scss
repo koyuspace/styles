@@ -5,3 +5,12 @@
 .status__content a .fa:hover {
   color: #fff;
 }
+
+code {
+  font-family: mastodon-font-monospace,monospace !important;
+  font-weight: 400;
+  font-size: 10pt;
+  background: black;
+  padding: 4px;
+  color: #fff;
+}
