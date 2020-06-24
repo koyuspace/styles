@@ -1,6 +1,7 @@
 .status__content .emojione:not([alt^=":sticker_"]) {
-  width: 24px !important;
-  height: 24px !important;
+  width: 32px !important;
+  height: 32px !important;
+  margin-top: 0px;
 }
 
 img[alt^=":sticker_"] {
