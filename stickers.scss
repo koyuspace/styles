@@ -22,3 +22,7 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"] {
   width: 16px !important;
   height: 16px !important;
 }
+
+.status__content .emojione:not([alt^=":sticker_"]) {
+  padding: 3px;
+}
