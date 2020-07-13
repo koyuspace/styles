@@ -7,6 +7,8 @@
 img[alt^=":sticker_"] {
   width: 128px !important;
   height: 128px !important;
+  display: block;
+  margin: 0 auto !important;
 }
 
 div.emoji-mart-category > span[title^=":sticker_"] > span {
