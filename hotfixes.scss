@@ -33,3 +33,9 @@ li#web {
 .conversation .h-card {
   display: none;
 }
+
+.account__header__account-note {
+  background: transparent !important;
+  border-top: 0;
+  border-bottom: 0;
+}
