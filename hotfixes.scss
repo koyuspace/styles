@@ -40,6 +40,7 @@ li#web {
   border-bottom: 0;
 }
 
-.drawer__inner {
+.drawer__inner,
+.composer--options--dropdown--content {
   z-index: 1;
 }
