@@ -44,3 +44,12 @@ li#web {
 .composer--options--dropdown--content {
   z-index: 1;
 }
+
+.account__header__fields dt {
+  background: rgba(23,23,23,.5);
+}
+
+.account__header .account__header__fields dd:not(.verified),
+.account__header__fields dd:not(.verified) {
+  background: rgba(23,23,23,.25);
+}
