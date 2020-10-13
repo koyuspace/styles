@@ -45,7 +45,8 @@ li#web {
   z-index: 1;
 }
 
-.account__header__fields dt {
+.account__header__fields dt,
+.account__header .account__header__fields dt {
   background: rgba(23,23,23,.5);
 }
 
