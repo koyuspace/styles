@@ -14,12 +14,14 @@
   padding: 30px;
 }
 
-a[href="/"]:not(.logofont) {
-  background: transparent url(https://koyu.space/img/pb-icon.svg) no-repeat top/41% auto !important;
-  box-sizing: border-box;
-  display: block;
-  margin-left: -24px;
-  margin-top: 1px;
+@media(min-width:800px) {
+  a[href="/"]:not(.logofont) {
+    background: transparent url(https://koyu.space/img/pb-icon.svg) no-repeat top/41% auto !important;
+    box-sizing: border-box;
+    display: block;
+    margin-left: -24px;
+    margin-top: 1px;
+  }
 }
 
 .brand {
