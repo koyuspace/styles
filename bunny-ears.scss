@@ -1,9 +1,17 @@
-.bunny {
-    background: url(https://koyu.space/img/bunny-ears.png) no-repeat;
-    width: 90px;
-    position: absolute;
-    margin-top: -60px;
-    margin-left: -5px;
-    height: 90px;
-    background-size: cover;
+@media(min-width:800px) {
+    .bunny {
+        background: url(https://koyu.space/img/bunny-ears.png) no-repeat;
+        width: 90px;
+        position: absolute;
+        margin-top: -60px;
+        margin-left: -5px;
+        height: 90px;
+        background-size: cover;
+    }
+}
+
+@media(max-width:800px) {
+    .bunny {
+        display: none;
+    }
 }
