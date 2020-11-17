@@ -71,3 +71,7 @@ a[href="https://joinmastodon.org/"],
 a.logofont {
   background: transparent !important;
 }
+
+.button.logo-button svg {
+  display: none;
+}
