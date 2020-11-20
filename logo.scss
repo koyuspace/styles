@@ -75,3 +75,11 @@ a.logofont {
 .button.logo-button svg {
   display: none;
 }
+
+.logo-container > h1:nth-child(1) > a:nth-child(1) {
+  background-size: 90% !important;
+}
+
+.logo-container {
+  margin: 0 !important;
+}
