@@ -51,18 +51,20 @@ pre > code {
   background: rgba(23,23,23,.25);
 }
 
-.search__input,
-.drawer--header,
-.drawer__inner {
-  border-radius: 5px;
-}
+@media(max-width:800px) {
+  .search__input,
+  .drawer--header,
+  .drawer__inner {
+    border-radius: 5px;
+  }
 
-.column-header {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
+  .column-header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
 
-.column > .scrollable {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  .column > .scrollable {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
 }
