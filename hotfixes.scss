@@ -51,7 +51,7 @@ pre > code {
   background: rgba(23,23,23,.25);
 }
 
-@media(max-width:800px) {
+@media(min-width:800px) {
   .search__input,
   .drawer--header,
   .drawer__inner {
