@@ -83,3 +83,11 @@ a.logofont {
 .logo-container {
   margin: 0 !important;
 }
+
+.column-title .logo > use {
+  visibility: hidden;
+}
+
+.column-title .logo {
+  background: transparent url(https://koyu.space/img/pb-icon.svg) no-repeat top/100% auto !important;
+}
