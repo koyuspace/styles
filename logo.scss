@@ -99,3 +99,15 @@ a.logofont {
 .column-actions__background {
   display: none;
 }
+
+.scrollable.follow-recommendations-container {
+  background-image: url(https://koyu.space/img/pb-icon.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 20%;
+  background-position-y: 10px;
+}
+
+.follow-recommendations-container > .column-title > svg {
+  visibility: hidden;
+}
