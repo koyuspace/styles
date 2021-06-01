@@ -27,3 +27,14 @@ a[href*="/tags/Venezuela"]:after {
   background-repeat: no-repeat;
   background-size: 85%;
 }
+
+a[href*="/tags/pridemonth"]:after,
+a[href*="/tags/PrideMonth"]:after {
+  background: url(https://koyu.space/emoji/1f3f3-fe0f-200d-1f308.svg);
+  padding: 10px;
+  margin-left: 4px;
+  background-position: center;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
