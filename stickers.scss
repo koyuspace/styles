@@ -22,10 +22,11 @@ button[aria-label^="sticker_"] > span {
 }
 
 span.reactions-bar__item__emoji > img[alt^=":sticker_"],
-.display-name__html > img[alt^=":sticker_"] {
+.display-name__html > img[alt^=":sticker_"],
+.status__display-name .emojione.custom-emoji {
   width: 16px !important;
   height: 16px !important;
-  display: inline;
+  display: inline !important;
 }
 
 .status__content .emojione:not([alt^=":sticker_"]) {
