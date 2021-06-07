@@ -11,7 +11,8 @@ img[alt^=":sticker_"] {
   margin: 0 auto !important;
 }
 
-div.emoji-mart-category > span[title^=":sticker_"] > span {
+div.emoji-mart-category > span[title^=":sticker_"] > span,
+button[aria-label^="sticker_"] > span {
   width: 120px !important;
   height: 120px !important;
 }
@@ -20,9 +21,11 @@ div.emoji-mart-category > span[title^=":sticker_"] > span {
   border-radius: 10px !important;
 }
 
-span.reactions-bar__item__emoji > img[alt^=":sticker_"] {
+span.reactions-bar__item__emoji > img[alt^=":sticker_"],
+.display-name__html > img[alt^=":sticker_"] {
   width: 16px !important;
   height: 16px !important;
+  display: inline;
 }
 
 .status__content .emojione:not([alt^=":sticker_"]) {
