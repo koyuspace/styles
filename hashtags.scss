@@ -38,3 +38,15 @@ a[href*="/tags/PrideMonth"]:after {
   background-repeat: no-repeat;
   background-size: 85%;
 }
+
+a[href*="/tags/ukraine"]:after,
+a[href*="/tags/StandWithUkraine"]:after,
+a[href*="/tags/ucrania"]:after {
+  background: url(https://koyu.space/emoji/1f1fa-1f1e6.svg);
+  padding: 10px;
+  margin-left: 4px;
+  background-position: center;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
