@@ -51,3 +51,14 @@ a[href*="/tags/ucrania"]:after {
   background-repeat: no-repeat;
   background-size: 85%;
 }
+
+a[href*="/tags/heardle"]:after,
+a[href*="/tags/Heardle"]:after {
+  background: url(https://f001.backblazeb2.com/file/koyuspace-media/custom_emojis/images/000/250/388/original/d8690bb291cb8d18.png);
+  padding: 10px;
+  margin-left: 4px;
+  background-position: center;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
