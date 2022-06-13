@@ -1,4 +1,5 @@
 @import url(https://inst.ance.tk/css/2.css);
-.getting-started__footer::after {
+.getting-started__footer::after,
+.compose-form::after {
   display: none !important;
 }
