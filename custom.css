@@ -1244,7 +1244,10 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 
 .reply-indicator__content a.unhandled-link, .status__content a.unhandled-link,
 .tabs-bar__link.active,
-.announcements__item__content a.unhandled-link {
+.announcements__item__content a.unhandled-link,
+.filters .filter-subset a.selected,
+.simple_form .hint a,
+.notification__message .fa {
     color: var(--accent-color);
 }
 
@@ -1304,5 +1307,39 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 }
 
 .loading-bar {
+  background: var(--accent-color) !important;
+}
+
+button.icon-button i.fa-retweet,
+button.icon-button i.fa-retweet:hover {
+  background: url(https://content.koyu.space/img/rt.svg);
+}
+
+.media-gallery__item {
+  border-radius: 20px !important;
+}
+
+.spoiler-button--minified {
+  left: 8px !important;
+  top: 8px !important;
+}
+
+.icon-button.overlayed {
+  border-radius: 50% !important;
+}
+
+.language-dropdown__dropdown__results__item.active {
+  background: var(--accent-color);
+}
+
+.language-dropdown__dropdown__results__item.active:hover {
+  background: var(--accent-color-hover);
+}
+
+.icon-button.star-icon.active, .notification__favourite-icon-wrapper .star-icon {
+  color: #ca8f04 !important;
+}
+
+.upload-progress__tracker {
   background: var(--accent-color) !important;
 }
