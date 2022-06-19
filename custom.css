@@ -1343,3 +1343,8 @@ button.icon-button i.fa-retweet:hover {
 .upload-progress__tracker {
   background: var(--accent-color) !important;
 }
+
+a[href="https://koyu.space/@Gigglyingalloy"] .display-name__html,
+a[href="https://koyu.space/@cronomaestro"] .display-name__html {
+  color: #ff8000;
+}
