@@ -632,7 +632,7 @@ body {
     border-top: 0px solid #42485a;
 }
 .account__header__fields {
-    background-color: var(--element-color);
+    background-color: var(--element-color) !important;
 }
 /*cancel button popup*/
 .block-modal__cancel-button, .confirmation-modal__cancel-button, .confirmation-modal__secondary-button, .mute-modal__cancel-button {
