@@ -661,7 +661,6 @@ body {
 .account__header__bar {
     position: relative;
     background: var(--element-color);
-    padding: 5px;
     border-bottom: 0px;
 }
 
@@ -1380,4 +1379,8 @@ button.icon-button i.fa-retweet:hover {
 
 .load-more > .fa-ellipsis-h::before {
   content: "\f04c";
+}
+
+.account__header {
+  background: var(--element-color);
 }
