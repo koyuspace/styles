@@ -3335,7 +3335,8 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 }
 
 .about__section__title,
-.prose a {
+.prose a,
+.status__wrapper--filtered__button {
   color: var(--accent-color);
 }
 
