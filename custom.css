@@ -134,20 +134,6 @@ b {
   width: calc(100% - 0px);
 }
 
-.ui__header__links > .button,
-.compose-form__publish-button-wrapper > .button.button--block {
-  font-size: 0 !important;
-}
-
-.ui__header__links > .button::after,
-.compose-form__publish-button-wrapper > .button.button--block::after {
-  content: "Hop";
-  text-transform: none;
-  font-size: 15px;
-  position: relative;
-  bottom: -2px;
-}
-
 :root {
 --accent-color: #fe53e1;
 --accent-color-hover: #fe53e1;
@@ -233,35 +219,9 @@ body {
 .account__avatar{
 	border-radius: 100%;
 }
-
-:not(.notification) .account__avatar-overlay .account__avatar-overlay-overlay{
-	display:none;
-}
-:not(.notification) .account__avatar-overlay .account__avatar-overlay-base{
-	width: 48px;
-    height: 48px;
-    background-size: 48px 48px;
-    border-radius: 100%;
-}
 .notification__message .fa{
 	margin-left: -30px;
     margin-top: 8px;
-}
-.notification .account__avatar-overlay .account__avatar-overlay-overlay{
-	display: initial;
-    /*width: 48px;
-    height: 48px;
-    background-size: 48px;*/
-	width: 24px;
-    height: 24px;
-    background-size: 24px 24px;
-    border-radius: 100%;
-    bottom: inherit;
-    right: 0;
-    top: -24px;
-}
-.notification .account__avatar-overlay .account__avatar-overlay-base{
-	display:none;
 }
    
     
@@ -304,17 +264,6 @@ body {
     border: 0;
     margin: 10px;
 }
-    .notification .account__avatar-overlay .account__avatar-overlay-overlay {
-	margin-top: 5px;
-    display: initial;
-    width: 24px;
-    height: 24px;
-    background-size: 24px 24px;
-    border-radius: 100%;
-    bottom: inherit;
-    right: 0;
-    top: 0px;
-}
 .notification__message .fa {
     margin-left: 0px;
     margin-top: 0px;
@@ -324,18 +273,6 @@ body {
     border-radius: 30px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.notification .account__avatar-overlay .account__avatar-overlay-overlay {
-    margin-top: 5px;
-    display: initial;
-    width: 40px;
-    height: 40px;
-    background-size: 40px 40px;
-    border-radius: 100%;
-    bottom: inherit;
-    right: 5px;
-    top: 0;
 }
 .account {
     padding: 10px;
@@ -1438,9 +1375,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 #mastodon .react-toggle-thumb,  .public-layout .react-toggle-thumb,  .modal-layout .react-toggle-thumb  {
   pointer-events:  none;
 }
-#mastodon .account__avatar,  .public-layout .account__avatar,  .modal-layout .account__avatar,  #mastodon #profile_page_avatar,  .public-layout #profile_page_avatar,  .modal-layout #profile_page_avatar,  #mastodon .account__avatar-composite,  .public-layout .account__avatar-composite,  .modal-layout .account__avatar-composite,  #mastodon .account-card__title__avatar img,  .public-layout .account-card__title__avatar img,  .modal-layout .account-card__title__avatar img  {
-  border-radius:  30% !important;
-}
 #mastodon .account,  .public-layout .account,  .modal-layout .account,  #mastodon .detailed-status__action-bar,  .public-layout .detailed-status__action-bar,  .modal-layout .detailed-status__action-bar,  #mastodon .column-header__collapsible-inner,  .public-layout .column-header__collapsible-inner,  .modal-layout .column-header__collapsible-inner,  #mastodon .compose-form__buttons-wrapper,  .public-layout .compose-form__buttons-wrapper,  .modal-layout .compose-form__buttons-wrapper,  #mastodon .audio-player,  .public-layout .audio-player,  .modal-layout .audio-player,  #mastodon .box-widget input[type="email"],  .public-layout .box-widget input[type="email"],  .modal-layout .box-widget input[type="email"],  #mastodon .box-widget input[type="password"],  .public-layout .box-widget input[type="password"],  .modal-layout .box-widget input[type="password"],  #mastodon .box-widget input[type="text"],  .public-layout .box-widget input[type="text"],  .modal-layout .box-widget input[type="text"],  #mastodon .box-widget textarea,  .public-layout .box-widget textarea,  .modal-layout .box-widget textarea,  #mastodon .compose-form .spoiler-input__input,  .public-layout .compose-form .spoiler-input__input,  .modal-layout .compose-form .spoiler-input__input,  #mastodon .compose-form__autosuggest-wrapper,  .public-layout .compose-form__autosuggest-wrapper,  .modal-layout .compose-form__autosuggest-wrapper,  #mastodon .compose-form__poll-wrapper select,  .public-layout .compose-form__poll-wrapper select,  .modal-layout .compose-form__poll-wrapper select,  #mastodon .report-dialog-modal__textarea,  .public-layout .report-dialog-modal__textarea,  .modal-layout .report-dialog-modal__textarea,  #mastodon .search__input,  .public-layout .search__input,  .modal-layout .search__input,  #mastodon .setting-text,  .public-layout .setting-text,  .modal-layout .setting-text,  #mastodon .statuses-grid .detailed-status,  .public-layout .statuses-grid .detailed-status,  .modal-layout .statuses-grid .detailed-status  {
   border:  0 !important;
 }
@@ -2020,20 +1954,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 #mastodon .status__prepend .notification__display-name,  .public-layout .status__prepend .notification__display-name,  .modal-layout .status__prepend .notification__display-name,  #mastodon .notification__message .notification__display-name,  .public-layout .notification__message .notification__display-name,  .modal-layout .notification__message .notification__display-name  {
   white-space:  nowrap;
 }
-#mastodon .account__avatar-overlay-base,  .public-layout .account__avatar-overlay-base,  .modal-layout .account__avatar-overlay-base  {
-  width:  100%;
-  height:  100%;
-  background-size:  cover;
-  border-radius:  var(--radius);
-}
-#mastodon .account__avatar-overlay-base .account__avatar,  .public-layout .account__avatar-overlay-base .account__avatar,  .modal-layout .account__avatar-overlay-base .account__avatar  {
-  width:  90% !important;
-  height:  90% !important;
-}
-#mastodon .account__avatar-overlay-overlay,  .public-layout .account__avatar-overlay-overlay,  .modal-layout .account__avatar-overlay-overlay  {
-  border-radius:  var(--radius-round);
-  overflow:  hidden;
-}
 #mastodon .status__info,  .public-layout .status__info,  .modal-layout .status__info  {
   margin-top:  5px;
 }
@@ -2348,15 +2268,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 }
 #mastodon .navigation-panel .column-link:hover:before,  .public-layout .navigation-panel .column-link:hover:before,  .modal-layout .navigation-panel .column-link:hover:before,  #mastodon .navigation-panel .column-link:focus:before,  .public-layout .navigation-panel .column-link:focus:before,  .modal-layout .navigation-panel .column-link:focus:before  {
   opacity:  1 !important;
-}
-#mastodon .navigation-panel .column-link[href="/settings/preferences"],  .public-layout .navigation-panel .column-link[href="/settings/preferences"],  .modal-layout .navigation-panel .column-link[href="/settings/preferences"]  {
-  display:  none !important;
-}
-#mastodon .navigation-panel .column-link[href="/lists"] + div hr,  .public-layout .navigation-panel .column-link[href="/lists"] + div hr,  .modal-layout .navigation-panel .column-link[href="/lists"] + div hr  {
-  display:  none;
-}
-#mastodon .navigation-panel .column-link[href="/lists"] + div .column-link i,  .public-layout .navigation-panel .column-link[href="/lists"] + div .column-link i,  .modal-layout .navigation-panel .column-link[href="/lists"] + div .column-link i  {
-  opacity:  0.2;
 }
 }
 @media (min-width: 895px)  {
