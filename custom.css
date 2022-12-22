@@ -16335,3 +16335,16 @@ body.lighter {
   --user-role-background: #007bff19;
   --user-role-border: #007bff80;
 }
+
+#edit_user > div.fields-row > div:nth-child(2) {
+  display: none;
+}
+
+#edit_user > div.fields-row > div:nth-child(1) {
+  max-width: 100% !important;
+}
+
+.navigation-bar strong {
+    margin-left: 4px;
+    margin-bottom: 2px;
+}
