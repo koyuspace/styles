@@ -13047,7 +13047,7 @@ body.rtl .picture-in-picture {
 
 @media(min-width:800px) {
   a[href="/"]:not(.logofont):not(.button) {
-    background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat top/75% auto !important;
+    background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat center/75% auto !important;
     box-sizing: border-box;
     display: block;
     margin-left: -24px;
