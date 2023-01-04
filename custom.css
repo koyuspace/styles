@@ -16348,3 +16348,7 @@ body.lighter {
     margin-left: 4px;
     margin-bottom: 2px;
 }
+
+.simple_form .label_input__append::after {
+    display: none;
+}
